@@ -136,6 +136,8 @@ print {
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
+        background-color: rgba(255, 255, 255, 0.25); /* Semi-transparent white overlay */
+        background-blend-mode: lighten;
     }
 
     h1 {
